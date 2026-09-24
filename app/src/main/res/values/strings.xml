@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ThcLabz</string>
+    <string name="app_logo_title">THC LABZ</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="strain_library_title">Strain Library</string>
+    <string name="cd_settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="hint_favorite_strain_preferences">Favorite Strain / Preferences</string>
+    <string name="btn_save_preferences">Save Preferences</string>
+    <string name="btn_logout">Logout</string>
+    <string name="placeholder_strain_name">Strain Name</string>
+    <string name="placeholder_sativa">Sativa</string>
+    <string name="placeholder_thc">THC: 20%</string>
+</resources>

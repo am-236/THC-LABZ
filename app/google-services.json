@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776867752449",
+    "project_id": "thc-labz",
+    "storage_bucket": "thc-labz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776867752449:android:6ee46066f45b0253e96e00",
+        "android_client_info": {
+          "package_name": "com.example.thclabz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbu0FGSMzUXsjzmhieKbZk5QrmwncDX4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
