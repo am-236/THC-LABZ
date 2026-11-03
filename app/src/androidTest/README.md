@@ -40,6 +40,6 @@ During the development of this prototype, AI tools (specifically ChatGPT) were u
 
 ## 8. Screenshots
 *(Insert screenshots of your Login Screen, Main Dashboard, and Settings Screen here)*
-![Login Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot 2026-09-24 023041.png)
-![Main Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023128.png)
-![Settings Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023236.png)
+<img alt="Login Screen" src="C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023041.png"/>
+<img alt="Main Screen" src="C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023128.png"/>
+<img alt="Settings Screen" src="C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023236.png"/>

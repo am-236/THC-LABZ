@@ -1,5 +1,6 @@
 package com.example.thclabz.ui.main
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -11,7 +12,7 @@ class StrainAdapter : RecyclerView.Adapter<StrainAdapter.StrainViewHolder>() {
 
     fun submitList(list: List<Strain>) {
         strainList = list
-        notifyDataSetChanged()
+        this.notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StrainViewHolder {
@@ -26,7 +27,8 @@ class StrainAdapter : RecyclerView.Adapter<StrainAdapter.StrainViewHolder>() {
 
     override fun getItemCount() = strainList.size
 
-    inner class StrainViewHolder(private val binding: ItemStrainBinding) : RecyclerView.ViewHolder(binding.root) {
+    class StrainViewHolder(private val binding: ItemStrainBinding) : RecyclerView.ViewHolder(binding.root) {
+        @SuppressLint("SetTextI18n")
         fun bind(strain: Strain) {
             binding.tvStrainName.text = strain.name
             binding.tvStrainType.text = strain.type
