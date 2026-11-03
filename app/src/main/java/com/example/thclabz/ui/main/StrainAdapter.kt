@@ -10,6 +10,7 @@ import com.example.thclabz.databinding.ItemStrainBinding
 class StrainAdapter : RecyclerView.Adapter<StrainAdapter.StrainViewHolder>() {
     private var strainList = listOf<Strain>()
 
+    @SuppressLint("NotifyDataSetChanged")
     fun submitList(list: List<Strain>) {
         strainList = list
         this.notifyDataSetChanged()

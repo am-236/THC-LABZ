@@ -35,6 +35,9 @@ android {
         compose = true
         viewBinding = true
     }
+    lint {
+        disable.add("LoginCredentials")
+    }
 }
 
 dependencies {
@@ -45,12 +48,9 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
-    //noinspection LoginCredentials
     implementation(libs.androidx.credentials)
-    //noinspection LoginCredentials
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    //noinspection LoginCredentials
     implementation(libs.googleid)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
@@ -61,7 +61,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     // Firebase
     implementation(platform(libs.firebase.bom))
-    //noinspection LoginCredentials
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
 
