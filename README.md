@@ -24,8 +24,9 @@ THC LABZ is an Android application designed as a comprehensive companion for can
 *   **Networking:** Firebase SDK (RESTful API calls under the hood)
 *   **Version Control:** Git & GitHub
 
-## 5. GitHub Actions (Automated Testing)
-This repository is configured with GitHub Actions (`.github/workflows/android.yml`). Every push to the `main` branch triggers an automated build and unit test run to ensure code integrity.
+## 5. GitHub & GitHub Actions
+*   **GitHub:** The full Kotlin source is version controlled in this repository with regular commits and pushes (no zip or file uploads). The final submission is tagged `Final POE`.
+*   **GitHub Actions:** `.github/workflows/android.yml` runs on every push and pull request to `master`. It sets up the JDK and Gradle, runs the unit tests (`./gradlew testDebugUnitTest`), builds the debug APK (`./gradlew assembleDebug`) and uploads it as a build artifact.
 
 ## 6. Demo Video
 [Link to your Unlisted YouTube Video Here]
@@ -39,7 +40,14 @@ During the development of this prototype, AI tools (specifically ChatGPT) were u
 *   **Formatting:** AI was used to format the README file and structure the project documentation.
 
 ## 8. Screenshots
-*(Insert screenshots of your Login Screen, Main Dashboard, and Settings Screen here)*
-![Login Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot 2026-09-24 023041.png)
-![Main Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023128.png)
-![Settings Screen](C:\Users\AHHH\Pictures\Screenshots\Screenshot%202026-09-24%20023236.png)
+Add screenshots to `docs/screenshots/` and reference them with relative paths:
+
+![Login Screen](docs/screenshots/login.png)
+![Main Screen](docs/screenshots/main.png)
+![Settings Screen](docs/screenshots/settings.png)
+
+## 9. Release Notes (Final PoE)
+*To be completed for the final submission:* list all updates since the prototype and the innovative features added in this version.
+
+## 10. References
+*To be completed:* list any borrowed code or resources using one consistent style (Harvard or IEEE).
