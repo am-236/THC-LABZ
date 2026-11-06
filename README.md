@@ -1,12 +1,19 @@
-# ThcLabz - Android Mobile Application
+# THC LABZ - South African Cannabis Companion
 
 **ThcLabz** is a native Android application built with Kotlin, Firebase (Authentication & Cloud Firestore), Material Design 3, and Android Jetpack libraries.
 
 ---
 
-## 🚀 Features & POE Rubric Compliance
+## 1. Project Overview & Purpose
+THC LABZ is an Android application designed as a comprehensive companion for cannabis information in South Africa. THC LABZ serves as a verified directory of dispensaries, a library for strain reviews, and an educational hub.
 
-This application has been developed and audited against the Portfolio of Evidence (POE) rubric requirements:
+**Important Note:** This is an educational platform. No sales are conducted through this app.
+
+---
+
+## 🚀 2. Features & POE Rubric Compliance
+
+This application has been developed and audited against all Portfolio of Evidence (POE) rubric requirements:
 
 1. **Mobile Execution:**
    - Native Android application supporting API level 24+ (`minSdk = 24`, `targetSdk = 37`).
@@ -41,7 +48,7 @@ This application has been developed and audited against the Portfolio of Evidenc
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ 3. Architecture & Tech Stack
 
 - **Language:** Kotlin 2.4.21
 - **UI Framework:** Android XML Layouts & View Binding
@@ -52,14 +59,15 @@ This application has been developed and audited against the Portfolio of Evidenc
 
 ---
 
-## 🧪 Automated Testing
+## 🧪 4. Automated Testing & GitHub Actions
 
-The project includes unit and instrumented test suites:
+The project includes automated unit and instrumented test suites:
 
 - **Instrumented Test:** `EmailValidatorTest.kt` (`app/src/androidTest/...`)
   - Tests email format validation using `android.util.Patterns.EMAIL_ADDRESS`.
 - **Unit Test:** `ExampleUnitTest.kt` (`app/src/test/...`)
   - Baseline unit execution test.
+- **GitHub Actions CI:** `.github/workflows/android.yml` runs on every push to `master`. It compiles, tests, and builds the debug APK artifact.
 
 ### Running Tests via Command Line:
 
@@ -73,7 +81,7 @@ The project includes unit and instrumented test suites:
 
 ---
 
-## 🤖 AI Usage Writeup & Citation
+## 🤖 5. AI Usage Writeup & Citation
 
 ### AI Tools Utilized
 - **AI Assistant / LLM Engine:** Used for project refactoring, dependency migration to Version Catalogs (`libs.versions.toml`), Android Studio lint resolution, and test suite setup.
@@ -86,5 +94,5 @@ The project includes unit and instrumented test suites:
 
 ---
 
-## 📜 License
+## 📜 6. License
 Copyright © 2026 ThcLabz. All rights reserved.
