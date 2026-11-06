@@ -5,5 +5,5 @@ data class Strain(
     val name: String = "",
     val type: String = "",
     val thcContent: String = "",
-    val review: String = ""
+    val review: String = "",
 )

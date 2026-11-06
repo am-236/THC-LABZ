@@ -7,6 +7,23 @@
     android:background="#121212">
 
     <TextView
+        android:id="@+id/tvOfflineStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#D32F2F"
+        android:padding="8dp"
+        android:text="@string/offline_banner_text"
+        android:alignmentMode="alignBounds"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/tvHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +33,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/tvOfflineStatus" />
 
     <ImageView
         android:id="@+id/btnSettings"

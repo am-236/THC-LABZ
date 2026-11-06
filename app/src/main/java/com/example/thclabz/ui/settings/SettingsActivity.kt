@@ -1,9 +1,11 @@
 package com.example.thclabz.ui.settings
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.thclabz.databinding.ActivitySettingsBinding
+import com.example.thclabz.ui.auth.AuthActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class SettingsActivity : AppCompatActivity() {
@@ -22,7 +24,10 @@ class SettingsActivity : AppCompatActivity() {
 
         binding.btnLogout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-            finish() // Return to AuthActivity
+            val intent = Intent(this, AuthActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            finish()
         }
     }
 }
