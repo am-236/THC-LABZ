@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"><![CDATA[ThcLabz]]></string>
+    <string name="app_logo_title"><![CDATA[THC LABZ]]></string>
+    <string name="hint_email">E-pos</string>
+    <string name="hint_password">Wagwoord</string>
+    <string name="btn_login">Teken In</string>
+    <string name="btn_register">Registreer</string>
+    <string name="btn_google_signin">Teken in met Google</string>
+    <string name="strain_library_title">Kultivar Biblioteek</string>
+    <string name="cd_settings">Instellings</string>
+    <string name="settings_title">Instellings</string>
+    <string name="hint_favorite_strain_preferences">Gunsteling Kultivar / Voorkeure</string>
+    <string name="btn_save_preferences">Stoor Voorkeure</string>
+    <string name="btn_logout">Teken Uit</string>
+    <string name="placeholder_strain_name">Kultivar Naam</string>
+    <string name="placeholder_sativa">Sativa</string>
+    <string name="placeholder_thc">THC: 20%</string>
+    <string name="offline_banner_text">Aflyn Modus: Wys gestoor data</string>
+    <string name="realtime_update_toast">Kultivar biblioteek intyds opgedateer.</string>
+    <string name="msg_fill_fields">Vul asseblief alle velde in</string>
+    <string name="msg_auth_failed">Stawing het misluk.</string>
+    <string name="msg_login_failed">Aanmelding het misluk. Kontroleer jou besonderhede.</string>
+    <string name="msg_settings_saved">Instellings Gestoor: %s</string>
+    <string name="msg_loading_failed">Kon nie data laai nie.</string>
+    <string name="thc_prefix">THC: %s</string>
+    <string name="default_web_client_id">776867752449-thclabz.apps.googleusercontent.com</string>
+</resources>
