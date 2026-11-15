@@ -71,6 +71,10 @@ This application has been developed and audited against all Portfolio of Evidenc
 
 The project includes automated unit and instrumented test suites:
 
+| Automated Test Results | GitHub Actions CI Build |
+| :---: | :---: |
+| ![Test Results](docs/screenshots/test_results.png) | ![GitHub CI Build](docs/screenshots/github_ci_build.png) |
+
 - **Instrumented Test:** `EmailValidatorTest.kt` (`app/src/androidTest/...`)
   - Tests email format validation using `android.util.Patterns.EMAIL_ADDRESS`.
 - **Unit Test:** `ExampleUnitTest.kt` (`app/src/test/...`)
