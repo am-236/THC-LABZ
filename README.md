@@ -94,5 +94,52 @@ The project includes automated unit and instrumented test suites:
 
 ---
 
+## 🐙 GitHub Usage
+
+- The complete Kotlin source is version controlled here with regular commits and pushes; no zip or file uploads.
+- Changes are merged through pull requests (for example #1) and CI must pass.
+- The final submission commit is tagged `Final POE`.
+
+---
+
+## 🎥 Demo Video
+
+[Add unlisted YouTube link here]
+
+The video (with voice-over) should show registration/login, SSO, data stored in Firebase Auth and Firestore, offline mode, language switching and settings.
+
+---
+
+## 🖼️ Screenshots
+
+Place images in `docs/screenshots/` and reference them here:
+
+![Login Screen](docs/screenshots/login.png)
+![Main Screen](docs/screenshots/main.png)
+![Settings Screen](docs/screenshots/settings.png)
+
+---
+
+## 📝 Release Notes (Final POE)
+
+**Updates since the prototype**
+- Google SSO via `CredentialManager` alongside Email/Password login.
+- Offline mode using Firestore persistence and an offline status banner.
+- Real-time strain updates through a Firestore snapshot listener.
+- Afrikaans localization (`values-af`).
+- Gradle version catalog, lint configuration, R8 keep rules and an email validator test.
+- CI workflow that runs tests and builds the debug APK.
+
+**Innovative features added in this version**
+- _List your own custom features here._
+
+---
+
+## 📚 References
+
+_List borrowed code and resources here in one consistent style (Harvard or IEEE)._
+
+---
+
 ## 📜 6. License
 Copyright © 2026 ThcLabz. All rights reserved.
