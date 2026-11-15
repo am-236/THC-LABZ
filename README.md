@@ -11,7 +11,15 @@ THC LABZ is an Android application designed as a comprehensive companion for can
 
 ---
 
-## 🚀 2. Features & POE Rubric Compliance
+## 📱 2. Application Screenshots
+
+| Auth Screen | Main Dashboard (Strain Library) | Settings & Preferences |
+| :---: | :---: | :---: |
+| ![Auth Screen](docs/screenshots/auth_screen.png) | ![Main Screen](docs/screenshots/main_screen.png) | ![Settings Screen](docs/screenshots/settings_screen.png) |
+
+---
+
+## 🚀 3. Features & POE Rubric Compliance
 
 This application has been developed and audited against all Portfolio of Evidence (POE) rubric requirements:
 
@@ -48,7 +56,7 @@ This application has been developed and audited against all Portfolio of Evidenc
 
 ---
 
-## 🛠️ 3. Architecture & Tech Stack
+## 🛠️ 4. Architecture & Tech Stack
 
 - **Language:** Kotlin 2.4.21
 - **UI Framework:** Android XML Layouts & View Binding
@@ -59,7 +67,7 @@ This application has been developed and audited against all Portfolio of Evidenc
 
 ---
 
-## 🧪 4. Automated Testing & GitHub Actions
+## 🧪 5. Automated Testing & GitHub Actions
 
 The project includes automated unit and instrumented test suites:
 
@@ -81,7 +89,7 @@ The project includes automated unit and instrumented test suites:
 
 ---
 
-## 🤖 5. AI Usage Writeup & Citation
+## 🤖 6. AI Usage Writeup & Citation
 
 ### AI Tools Utilized
 - **AI Assistant / LLM Engine:** Used for project refactoring, dependency migration to Version Catalogs (`libs.versions.toml`), Android Studio lint resolution, and test suite setup.
@@ -94,5 +102,5 @@ The project includes automated unit and instrumented test suites:
 
 ---
 
-## 📜 6. License
+## 📜 7. License
 Copyright © 2026 ThcLabz. All rights reserved.
